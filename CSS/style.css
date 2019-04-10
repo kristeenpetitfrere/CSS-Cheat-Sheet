@@ -1,0 +1,148 @@
+/*Use This Coding Right in the beginning of CSS to reset the margins*/
+    *{
+    padding:0;
+    border:red;
+    }
+
+/*Customizing every h1 in body formating*/
+
+h1{
+    color:rgb(204, 68, 44);
+    background-color: rgb(69, 104, 201);
+    text-align:left;
+    float: left;
+    width: 70%;   
+}
+
+h2{
+    color:rgb(204, 68, 44);
+    background-color: rgb(69, 104, 201);
+    text-align:left;
+    float:right;
+    width: 30%;  
+}
+h3{
+    color:rgb(204, 68, 44);
+    background-color: rgb(69, 104, 201);
+    margin:0;
+    padding:0;
+    text-align: center;
+    width: 100%;
+}
+i{
+    color: red;
+    font-weight: 800;
+}
+
+
+/* Customizing URL Links*/
+
+a{
+    color: none;
+    list-style-type: square;
+}
+
+/*Customizing Link with interactive
+a:hover{
+    color:purple;
+}
+a:active{
+    color:black;
+}
+a: :visited{
+    color:red;
+}
+*/
+
+/*Customizing Color*/
+body{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(218, 185, 209);
+    font: normal, Arial, 16px;
+    line-height: 1em;
+}
+.container{
+    border: red solid;
+
+    
+}
+
+/*Examples of Font Changes?*/
+.box-2 {  
+    font-family:'Times New Roman';
+    font-weight: 750;
+    text-transform: none;
+    letter-spacing: .1em;
+    word-spacing: .2em;
+
+     /*Customizing Border,Margin,Padding*/   
+        
+     /*Long Way
+        border-left:5px red solid;
+        border-right:5px red solid;
+        border-top:5px red solid;
+        border-bottom:5px red solid;
+        
+        Short-hand
+        border: 5px red solid;*/
+    
+    /*TIP!!!Both mean does the same process including for margin and padding*/
+        padding:0;
+        margin:0;
+        text-align: center;                                              
+    }
+.box-2 p{
+    width: 70%;
+    text-align: left;
+}
+
+    /*Customize Lists*/
+.categories{
+        border: #ccc solid;
+        text-align: right;
+        width: 30%;
+        float: right;   
+
+    }
+.categories h2 {
+        text-align: left;
+        width: 30%;
+    }
+.categories ul{
+        padding:0;
+        list-style:none;
+        width: 30%;
+    }
+.categories li{
+        padding:auto;
+        border-bottom: 6px black dotted;
+        text-align: left;
+        list-style-image:url(../Images/alipay\ _\ Font\ Awesome.html);
+        width: 30%;
+
+    }
+
+
+.box-3 {
+    border: 3px dotted lightgrey;
+    padding:auto;
+    margin:auto;
+    text-align:center;
+
+}
+    .box-3 p{
+    width: 100%;
+    text-align: center;
+}
+.box-4 {
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+.box-5 {
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+     
